@@ -14,13 +14,16 @@ A:visited {
 	text-decoration: none;
 	color:black;
 }
+A{
+	margin-right:12px;
+	margin-left:10px;
+}
 .bigtitle {
 	font-size:4em;
     margin-bottom:0.2em;
 	font-weight:400;
 }
 .links{
-	word-spacing:10;
 	font-size:1.1em;
 	font-weight:300;
 }
