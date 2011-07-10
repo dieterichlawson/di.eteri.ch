@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Dieterich Lawson</title>
+	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:light,regular&v1' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="main.css" type="text/css">
+	<script type="text/javascript"> 
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-19526783-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+	<script type="text/javascript"> 
+			var key = ['d', 'i', 'e', 't', 'r', 'c', 'h', '.', 'l', 'a', 'w', 's', 'o', 'n', '@', 'g', 'm'];
+			var cypher = {'email-1': [0, 1, 2, 3, 2, 4, 1, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 9, 1, 8, 7, 5, 12, 16]};
+
+			window.onload=function() { 
+				for (var email_id in cypher){
+					var email_text = "";
+					var char_list = cypher[email_id];
+					for(var i in char_list){
+						email_text+=key[char_list[i]];
+					}
+					document.getElementById(email_id).href="mailto:"+email_text;
+				}
+			}
+		</script>
+</head>
+
+<body id="index" class="home">
+	<div class="bigtitle">Dieterich  Lawson</div>
+	<div class="links">
+		<a href="http://medicmobile.org">WORK</a>
+		&nbsp;&middot;&nbsp;
+		<a href="http://www.github.com/dieterichlawson">GITHUB</a>
+		&nbsp;&middot;&nbsp;
+		<a id="email-1" href="http://www.github.com/dieterichlawson">EMAIL</a>
+		&nbsp;&middot;&nbsp;
+		<a href="dieterich_resume.pdf">RESUME</a>
+		&nbsp;&middot;&nbsp;
+		<a href="dlawson_pgp.asc">PUBLIC KEY</a>
+	</div>
+</body>
+</html>

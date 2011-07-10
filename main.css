@@ -1,0 +1,26 @@
+body {
+	background-color:#61A4D4;
+	font-family: 'Yanone Kaffeesatz';
+	font-size:30px;
+	color:#F0F6F9;
+	text-align:center;
+	padding-top:50px;
+}
+A:link {
+	text-decoration: none;
+	color:white;
+}
+A:visited {
+	text-decoration: none;
+	color:black;
+}
+.bigtitle {
+	font-size:4em;
+    margin-bottom:0.2em;
+	font-weight:400;
+}
+.links{
+	word-spacing:10;
+	font-size:1.1em;
+	font-weight:300;
+}
