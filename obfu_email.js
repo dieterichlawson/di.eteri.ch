@@ -1,0 +1,1 @@
+var key="dietrch.lawson@gm",cypher=[0,1,2,3,2,4,1,5,6,7,8,9,10,11,12,13,14,15,16,9,1,8,7,5,12,16];window.onload=function(){email_text="";for(var a=0;a<cypher.length;a++)email_text+=key.charAt(cypher[a]);document.getElementById("email").href="mailto:"+email_text}

@@ -5,6 +5,7 @@
 	<title>Dieterich Lawson</title>
 	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:light,regular&v1' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="main.css" type="text/css">
+	<script type="text/javascript" src="obfu_email.js"></script>
 	<script type="text/javascript"> 
 		var _gaq = _gaq || [];
 		_gaq.push(['_setAccount', 'UA-19526783-1']);
@@ -16,21 +17,6 @@
 			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		})();
 	</script>
-	<script type="text/javascript"> 
-			var key = ['d', 'i', 'e', 't', 'r', 'c', 'h', '.', 'l', 'a', 'w', 's', 'o', 'n', '@', 'g', 'm'];
-			var cypher = {'email-1': [0, 1, 2, 3, 2, 4, 1, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 9, 1, 8, 7, 5, 12, 16]};
-
-			window.onload=function() { 
-				for (var email_id in cypher){
-					var email_text = "";
-					var char_list = cypher[email_id];
-					for(var i in char_list){
-						email_text+=key[char_list[i]];
-					}
-					document.getElementById(email_id).href="mailto:"+email_text;
-				}
-			}
-		</script>
 </head>
 
 <body id="index" class="home">
@@ -38,9 +24,9 @@
 	<div class="links">
 		<a href="http://medicmobile.org">WORK</a>&middot;
 		<a href="http://www.github.com/dieterichlawson">GITHUB</a>&middot;
-		<a id="email-1" href="http://www.github.com/dieterichlawson">EMAIL</a>&middot;
+		<a id="email" href="mailto:">EMAIL</a>&middot;
 		<a href="dieterich_resume.pdf">RESUME</a>&middot;
-		<a type="text/plain" href="dlawson_pgp.asc">PGP</a>
+		<a type="text/plain" href="dlawson_pgp.asc.txt">PGP</a>
 	</div>
 </body>
 </html>
